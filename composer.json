@@ -1,0 +1,20 @@
+{
+    "name": "open-telemetry/exporter-azure",
+    "description": "Exporter for Azure Insights",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "OpenTelemetry\\Contrib\\Azure\\": "."
+        },
+        "files": [
+            "_register.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bráulio Zucco",
+            "email": "brazucco@gmail.com"
+        }
+    ]
+}
