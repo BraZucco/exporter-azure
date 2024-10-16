@@ -1,5 +1,5 @@
 {
-    "name": "open-telemetry/exporter-azure",
+    "name": "zucco/exporter-azure",
     "description": "Exporter for Azure Insights",
     "type": "library",
     "version": "1.0.0",
@@ -10,6 +10,12 @@
         "files": [
             "_register.php"
         ]
+    },
+    "dependencies": {
+        "open-telemetry/opentelemetry": "^1.0",
+        "open-telemetry/opentelemetry-auto-laravel": "^0.0.26",
+        "open-telemetry/opentelemetry-auto-slim": "^1.0",
+        "open-telemetry/sdk": "^1.0"
     },
     "authors": [
         {
