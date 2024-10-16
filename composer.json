@@ -11,7 +11,9 @@
             "_register.php"
         ]
     },
-    "dependencies": {
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.1",
         "open-telemetry/opentelemetry": "^1.0",
         "open-telemetry/opentelemetry-auto-laravel": "^0.0.26",
         "open-telemetry/opentelemetry-auto-slim": "^1.0",
@@ -22,5 +24,10 @@
             "name": "Bráulio Zucco",
             "email": "brazucco@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
 }
